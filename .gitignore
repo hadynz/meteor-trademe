@@ -1,6 +1,7 @@
 # Meteor
 .meteor/local
 .meteor/meteorite
+.versions
 
 # Node Modules
 node_modules
