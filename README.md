@@ -1,8 +1,12 @@
 # trademe
 
+<img align="right" src="https://camo.githubusercontent.com/f5717f054b3be088ed82e9846af2b19d1ca17850/687474703a2f2f6c6561726e2e7468756e6465726d6170732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f31322f74726164656d652d6c6f676f2e706e67">
+
 [![Build Status](https://travis-ci.org/hadynz/meteor-trademe.svg)](https://travis-ci.org/hadynz/meteor-trademe)
 
-An OAuth wrapper for the TradeMe API.
+An OAuth wrapper for the [Trade Me][trademe] API.
+
+See the project page on [Meteor Accounts][accounts] for more details.
 
 ## Registering an Application
 
@@ -52,6 +56,8 @@ sandbox URL's instead of Production.
 Copyright (c) 2015 Hady Osman.   
 Licensed under the [MIT license][license].
 
+[trademe]: http://www.trademe.co.nz
+[accounts]: https://www.meteor.com/accounts
 [registerapp]: http://developer.trademe.co.nz/api-overview/registering-an-application
 [register]: http://www.tmsandbox.co.nz/Members/Register.aspx
 [mytrademe]: http://www.tmsandbox.co.nz/MyTradeMe/Default.aspx
