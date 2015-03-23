@@ -49,7 +49,7 @@ sandbox URL's instead of Production.
 
 ## License
 
-Copyright (c) 2014 Hady Osman.   
+Copyright (c) 2015 Hady Osman.   
 Licensed under the [MIT license][license].
 
 [registerapp]: http://developer.trademe.co.nz/api-overview/registering-an-application
