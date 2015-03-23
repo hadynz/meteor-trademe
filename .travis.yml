@@ -3,9 +3,9 @@ node_js:
   - "0.10"
 
 before_script:
-  - npm install -g grunt-cli
+  - npm install -g gulp
   # Install Meteor preemptively because installing via grunt-exect has failed in the past
-  - curl https://install.meteor.com | /bin/sh
+  # - curl https://install.meteor.com | /bin/sh
 
 script:
   - gulp test
