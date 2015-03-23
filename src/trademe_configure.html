@@ -1,0 +1,21 @@
+<template name="configureLoginServiceDialogForTradeMe">
+    <p>
+        First, you'll need to have a Trade Me sandbox membership to register your app on Trade Me. Follow these steps:
+    </p>
+    <ol>
+        <li>
+            If you don’t already have a Trade Me sandbox membership you’ll need to
+            <a href="http://www.tmsandbox.co.nz/Members/Register.aspx" target="_blank">create one</a>.
+        </li>
+        <li>
+            Go to your <i>My Trade Me page</i>. Click <i>My Trade Me API applications</i>, choose
+            <i>Developer options</i>, and then <i>Register a new application</i>.
+        </li>
+        <li>
+            Fill in the form fields. Set the <i>Callback URL</i> to: <span class="url">{{siteUrl}}_oauth/trademe</span>.
+        </li>
+        <li>
+            Once you’ve successfully submitted the form make a note of your "Consumer key" and "Consumer secret".
+        </li>
+    </ol>
+</template>
