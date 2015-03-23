@@ -3,8 +3,7 @@ Package.describe({
   name: 'hadynz:trademe',
   summary: 'TradeMe OAuth flow',
   version: '1.0.0',
-  git: 'https://github.com/hadynz/meteor-trademe.git',
-  documentation: 'README.md'
+  git: 'https://github.com/hadynz/meteor-trademe.git'
 });
 
 Package.onUse(function (api) {
