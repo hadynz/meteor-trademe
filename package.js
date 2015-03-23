@@ -9,6 +9,7 @@ Package.describe({
 Package.onUse(function (api) {
   'use strict';
 
+  api.versionsFrom('0.9.0');
   api.use('http', ['client', 'server']);
   api.use('templating', 'client');
   api.use('oauth1', ['client', 'server']);
