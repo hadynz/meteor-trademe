@@ -9,10 +9,11 @@ function sandboxMode() {
   return false;
 }
 
+var trademeSettings = Meteor.settings.trademe || {};
 var oAuthHostname = 'https://secure.trademe.co.nz';
 var apiHostname = 'https://api.trademe.co.nz';
 
-if (sandboxMode()) {
+if (trademeSettings.sandbox === true || sandboxMode()) {
   oAuthHostname = 'https://secure.tmsandbox.co.nz';
   apiHostname = 'https://api.tmsandbox.co.nz';
 }

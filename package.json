@@ -1,7 +1,7 @@
 {
   "name": "meteor-trademe",
   "description": "An OAuth wrapper for the TradeMe API ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:hadynz/meteor-trademe.git"

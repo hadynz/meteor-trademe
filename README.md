@@ -51,6 +51,23 @@ If you are still developing your application against Trade Me's [sandbox environ
 set `sandbox: true` for the `meteor-trademe` module to use all the relevant Trade Me OAuth and API
 sandbox URL's instead of Production.
 
+### Sandbox
+To authenticate against Trade Me's sandbox environment, it is important that when the application starts up, that
+it immediately knows which mode you are running in before registering the Trade Me OAuth service. The OAuth service
+is passed an array of URL's to when registering itself and the URL's for Trade Me's sandbox are different than
+that of Production.
+
+To run in sandbox mode, you will need to pass in your `settings.json` which is passed to Meteor on startup the
+following structure:
+
+```js
+{
+  "trademe": {
+    "sandbox": true
+  }
+}
+```
+
 ## License
 
 Copyright (c) 2015 Hady Osman.   
